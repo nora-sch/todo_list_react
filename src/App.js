@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <List itemList={["Get milk", "Buy Amazon", "Take over the world"]}/>
-        <List itemList={["Get bread", "Get eggs"]} />
+        <List itemList={["Get bread", 2222]} />
       </header>
     </div>
   );

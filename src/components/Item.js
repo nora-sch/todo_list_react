@@ -11,6 +11,10 @@ function Item(props) {
   const handleMouseOut = () => {
     setBg("");
   };
+  //   const showChecked = () => {
+  //     setIsChecked(!isChecked)
+  //     console.log(!isChecked);
+  //   };
 
   return (
     <div>
@@ -18,6 +22,7 @@ function Item(props) {
         type="checkbox"
         checked={isChecked}
         onChange={() => setIsChecked(!isChecked)}
+        // onChange={()=> showChecked()}
       />
       <label
         onMouseOver={handleMouseOver}
